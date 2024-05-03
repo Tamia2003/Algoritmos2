@@ -1,0 +1,6 @@
+#En este programa, vamos obtener la longitud de una cadena de texto y guardar esa longitud en una variable, utilizas la función len(). 
+nombre=input("Tamia Gualan ")
+print("Mi nombre es: ",nombre)
+longitud_del_nombre = len(nombre) #len() me devuelve un valor entero que indica la cantidad de caracteres en la cadena de entrada
+print(longitud_del_nombre)
+print("Este programa me sirve para mostrar paso a paso cómo manejar cadenas de texto y funciones básicas")
