@@ -1,0 +1,14 @@
+#En este programa, vamos a realizar las operaciones matemáticas especificadas
+num_entero1 = 20
+num_entero2 = 10 #se declara número entero
+suma = num_entero1 + num_entero2
+num_flotante1 = 3.6
+num_flotante2 = 4.9 #se declara numero flotante
+resta = num_flotante1 - num_flotante2
+multiplicacion = num_entero1 * num_entero2
+division = num_flotante1 / num_flotante2
+print("Resultado de la suma de enteros:", suma)
+print("Resultado de la resta de flotantes:", resta)
+print("Resultado de la multiplicación de enteros:", multiplicacion)
+print("Resultado de la división de flotantes:", division)
+print("Este programa demuestra cómo realizar operaciones básicas en Python y cómo almacenar y mostrar sus resultados.")
