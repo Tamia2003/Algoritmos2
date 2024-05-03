@@ -1,0 +1,10 @@
+#En este  programa , vamos a declarar una variable entera y una de punto flotante, luego realizaremos la conversión. 
+numero_entero = 7 #se declara variable entera
+numero_flotante = 3.14 #se declara variable flotante
+entero_a_flotante = float(numero_entero) #se convierte de la variable entera a punto flotante
+flotante_a_entero = int(numero_flotante) #se convierte de la variable de punto flotante a entera
+print("Tipo original de 'numero_entero':", type(numero_entero)) #Se utiliza type() para obtener y mostrar el tipo de cada variable antes y después de la conversión
+print("Tipo después de convertir a flotante:", type(entero_a_flotante))
+print("Tipo original de 'numero_flotante':", type(numero_flotante))
+print("Tipo después de convertir a entero:", type(flotante_a_entero))
+print("Este programa es útil para entender cómo las conversiones de tipo cambian la naturaleza de los datos en las variables")
